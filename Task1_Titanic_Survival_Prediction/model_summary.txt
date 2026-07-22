@@ -1,0 +1,27 @@
+TITANIC SURVIVAL PREDICTION - MODEL SUMMARY
+=============================================
+
+Logistic Regression
+  Test Accuracy : 0.8156
+  ROC AUC       : 0.8714
+  5-fold CV Acc : 0.7946 (+/- 0.0183)
+
+Random Forest
+  Test Accuracy : 0.8212
+  ROC AUC       : 0.8550
+  5-fold CV Acc : 0.8305 (+/- 0.0153)
+
+Best Model: Random Forest
+
+Top Features (Random Forest importance):
+  Sex_enc: 0.2962
+  Title_enc: 0.1516
+  Fare: 0.1309
+  FarePerPerson: 0.1287
+  Age: 0.0841
+  Pclass: 0.0753
+  FamilySize: 0.0515
+  SibSp: 0.0323
+  AgeBin: 0.0232
+  Parch: 0.0148
+  IsAlone: 0.0114
